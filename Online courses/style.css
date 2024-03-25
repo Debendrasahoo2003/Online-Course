@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    }
+#home{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: rgb(255, 85, 0);
+}
+#head{
+    text-align: center;
+    border-radius: 10px;
+    background-color: aliceblue;
+    border: none;
+    font-weight: 700;
+}
+nav {
+    background-color: #333;
+    color: #05f5ed;
+    padding: 10px 20px;
+}
+nav a {
+    color: #f1d906;
+    text-decoration: none;
+    margin-right: 20px;
+}
+nav a:hover{
+    color: red;
+    border-radius: 5px;
+    background-color: black;
+    font-weight: 700;
+}
+.container {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+.category {
+    margin-bottom: 20px;
+}
+.category h2 {
+    margin-bottom: 10px;
+}
+.courses {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 20px;
+}
+.course {
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: solid;
+    cursor: pointer;
+}
+.course img:hover{
+    background-color: rgb(155, 121, 59);
+    color: red;
+    
+}
+.content{
+    text-align: center;
+    background-color: #ccc;
+}
+
+.registration-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button{
+    background-color: #333;
+    color: white;
+    font-weight: 100;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 5px;
+    cursor: pointer;
+}
